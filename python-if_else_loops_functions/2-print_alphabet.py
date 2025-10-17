@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for char in range(26):
-    print("{}".format(chr(char)), end="")
+for letter in range(26, 82):
+    print("{}".format(chr(letter)), end="")
